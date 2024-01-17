@@ -11,8 +11,6 @@ namespace GeometryLibrary.Models
     public sealed class Circle : IShape2D
     {
         private readonly double radius;
-        public double Radius => radius;
-        public double Diameter => 2 * radius;
 
         /// <summary>
         /// Creates a circle along the radius
@@ -26,16 +24,12 @@ namespace GeometryLibrary.Models
             this.radius = radius;
         }
 
-        public double Perimeter => GetPerimeter();
-        public double GetPerimeter()
-        {
-            return 2 * Math.PI * radius;
-        }
+        public double Perimeter => 2 * Math.PI * radius;
 
-        public double Sqare => GetSquare();
-        public double GetSquare()
-        {
-            return Math.PI * radius * radius;
-        }
+        public double Square => Math.PI * radius * radius;
+
+        public double Radius => radius;
+
+        public double Diameter => 2 * radius;
     }
 }

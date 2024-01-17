@@ -32,7 +32,7 @@ namespace GeometryLibrary
         /// </summary>
         public static double GetSquare(IHaveSquare shape)
         {
-            return shape.GetSquare();
+            return shape.Square;
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace GeometryLibrary
         /// </summary>
         public static double GetPerimeter(IHavePerimeter shape)
         {
-            return shape.GetPerimeter();
+            return shape.Perimeter;
         }
     }
 }

@@ -30,14 +30,10 @@ namespace GeometryLibrary.Models
             this.c = c;
         }
 
-        public double Perimeter => GetPerimeter();
-        public double GetPerimeter()
-        {
-            return a + b + c;
-        }
+        public double Perimeter => a + b + c;
 
         public double Square => GetSquare();
-        public double GetSquare()
+        private double GetSquare()
         {
             var p = Perimeter / 2;
 
