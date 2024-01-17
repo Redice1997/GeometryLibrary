@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GeometryLibrary.Interfaces
 {
     // Существуют плоские фигуры без периметра (фракталы)
-    internal interface IHavePerimeter 
+    public interface IHavePerimeter 
     {
         double GetPerimeter();
     }

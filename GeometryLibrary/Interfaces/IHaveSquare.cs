@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GeometryLibrary.Interfaces
 {
     //Площадь могут иметь трехмерные фигуры
-    internal interface IHaveSquare 
+    public interface IHaveSquare 
     {
         double GetSquare();
     }

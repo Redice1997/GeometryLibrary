@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GeometryLibrary.Interfaces
 {
     //Фракталы не двумерны
-    internal interface IShape2D : IHavePerimeter, IHaveSquare
+    public interface IShape2D : IHavePerimeter, IHaveSquare
     {
     }
 }
