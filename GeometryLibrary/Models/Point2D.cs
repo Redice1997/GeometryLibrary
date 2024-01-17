@@ -17,23 +17,17 @@ namespace GeometryLibrary.Models
         public double X { get; init; }
         public double Y { get; init; }
 
-        public static Point2D operator +(Point2D left, Point2D right)
+        public static Point2D operator +(Point2D left, Point2D right) => new Point2D
         {
-            return new Point2D
-            {
-                X = left.X + right.X,
-                Y = left.Y + right.Y,
-            };
-        }
+            X = left.X + right.X,
+            Y = left.Y + right.Y,
+        };
 
-        public static Point2D operator -(Point2D left, Point2D right)
+        public static Point2D operator -(Point2D left, Point2D right) => new Point2D
         {
-            return new Point2D
-            {
-                X = left.X - right.X,
-                Y = left.Y - right.Y,
-            };
-        }
+            X = left.X - right.X,
+            Y = left.Y - right.Y,
+        };
 
         public double Distance => Math.Sqrt(X * X + Y * Y);
     }
