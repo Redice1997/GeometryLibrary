@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary", "Geometry
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{5A0EE700-79FF-4787-8D01-35B1F11FD1BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.Tests", "Geometry.Tests\Geometry.Tests.csproj", "{945F3109-72DF-4ACE-8F7A-B50FE8F71F77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5A0EE700-79FF-4787-8D01-35B1F11FD1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A0EE700-79FF-4787-8D01-35B1F11FD1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A0EE700-79FF-4787-8D01-35B1F11FD1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945F3109-72DF-4ACE-8F7A-B50FE8F71F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945F3109-72DF-4ACE-8F7A-B50FE8F71F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945F3109-72DF-4ACE-8F7A-B50FE8F71F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945F3109-72DF-4ACE-8F7A-B50FE8F71F77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
